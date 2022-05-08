@@ -1,0 +1,8 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make: Entering directory 'd:/Ammal Haqi/Kuliah/Semester 2/Pemrograman Lanjut/FINAL PROJECT/Operator Overloading/Operator Overloading'
+g++ --std=c++17 -O3 -Wall -Wextra -I. -c -o src/main.o src/main.cpp
+ 
+g++ --std=c++17 -O3 -Wall -Wextra -I. -c -o src/PersegiPanjang.o src/PersegiPanjang.cpp
+g++ --std=c++17 -O3 -Wall -Wextra -I. -o operator_overloading src/main.o src/PersegiPanjang.o
+make: Leaving directory 'd:/Ammal Haqi/Kuliah/Semester 2/Pemrograman Lanjut/FINAL PROJECT/Operator Overloading/Operator Overloading'
+ 
